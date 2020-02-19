@@ -57,6 +57,9 @@
                       'link_after'  => '</span>',
                     ) );
                   ?>
+
+                      ここにおすすめページを表示させる
+
                 </section> <?php // end article section ?>
 
                 <footer class="article-footer">
