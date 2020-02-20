@@ -79,6 +79,7 @@
                           <a href=<?php echo "http://localhost:8000/?p=".$value;?>><?php echo get_the_title($value);?></a><br>
                         </div>
                     <?php endforeach?>
+                        <div class="clear-relation-pages"></div>
                   </div>
 
 

@@ -1753,6 +1753,8 @@ view.
 
 /* おすすめページのCSS */
 /* なぜか動かない */
+/* 動いたよ？キャッシュリロードのせい？ */
+
 .relation-pages{
   width:100%;
   background-color: #bfe4f4;
@@ -1760,7 +1762,20 @@ view.
 }
 
 .relation-page{
-  width:50%;
+  border:1px solid #AAA;
+  background-color:#FFF;
+  margin:10px 2%;
+  width:46%;
+  float:left;
+  padding:6px 2px;
+}
+
+.relation-page a{
+  text-decoration: none;
+}
+
+.clear-relation-pages{
+  clear:both;
 }
 
 
