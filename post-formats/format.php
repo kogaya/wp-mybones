@@ -58,7 +58,16 @@
                     ) );
                   ?>
 
-                      ここにおすすめページを表示させる
+                      ここにおすすめページを表示させるyo
+                  <div class="relation-pages">
+                  <?php 
+                    $relation_page = get_post_meta($post->ID,"relation_page",true);
+                    if(empty($relation_page) === false) {
+                  ?>
+                      <a href=<?php echo $relation_page ?>>おすすめ記事</a>
+                    <?php } ?>
+                  </div>
+                      
 
                 </section> <?php // end article section ?>
 
