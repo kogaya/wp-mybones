@@ -58,16 +58,29 @@
                     ) );
                   ?>
 
+                      <!-- １件だけの場合(学習用に残してるだけ)
                       ここにおすすめページを表示させるyo
                   <div class="relation-pages">
                   <?php 
-                    $relation_page = get_post_meta($post->ID,"relation_page",true);
-                    if(empty($relation_page) === false) {
+                    // $relation_page = get_post_meta($post->ID,"relation_page",true);
+                    // if(empty($relation_page) === false) {
                   ?>
-                      <a href=<?php echo $relation_page ?>>おすすめ記事</a>
-                    <?php } ?>
+                      <a href=<?php //echo $relation_page ?>>おすすめ記事</a>
+                    <?php //} ?>
+                  </div> -->
+
+                  ここにおすすめページを複数並べるYO！
+                  <div class="relation-pages">
+                    <?php 
+                      $custom_fields = get_post_custom(); // この投稿のカスタムフィールドの値をすべて取得
+                      $relation_pages = $custom_fields['relation_page']; // キーがrelation_pageの値を取得、格納
+                      foreach($relation_pages as $key=>$value) :?>
+                        <div class="relation-page">
+                          <a href=<?php echo "http://localhost:8000/?p=".$value;?>><?php echo get_the_title($value);?></a><br>
+                        </div>
+                    <?php endforeach?>
                   </div>
-                      
+
 
                 </section> <?php // end article section ?>
 

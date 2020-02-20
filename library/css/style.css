@@ -1750,6 +1750,21 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+
+/* おすすめページのCSS */
+/* なぜか動かない */
+.relation-pages{
+  width:100%;
+  background-color: #bfe4f4;
+  border:1px solid #444;
+}
+
+.relation-page{
+  width:50%;
+}
+
+
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2118,3 +2133,4 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
