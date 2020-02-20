@@ -1761,7 +1761,10 @@ view.
   border:1px solid #444;
 }
 
-.relation-page{
+.relation-pages a{
+  text-decoration: none;
+  display: block;
+
   border:1px solid #AAA;
   background-color:#FFF;
   margin:10px 2%;
@@ -1770,14 +1773,9 @@ view.
   padding:6px 2px;
 }
 
-.relation-page a{
-  text-decoration: none;
-}
-
 .clear-relation-pages{
   clear:both;
 }
-
 
 
 /*********************

@@ -75,9 +75,9 @@
                       $custom_fields = get_post_custom(); // この投稿のカスタムフィールドの値をすべて取得
                       $relation_pages = $custom_fields['relation_page']; // キーがrelation_pageの値を取得、格納
                       foreach($relation_pages as $key=>$value) :?>
-                        <div class="relation-page">
-                          <a href=<?php echo "http://localhost:8000/?p=".$value;?>><?php echo get_the_title($value);?></a><br>
-                        </div>
+                        
+                          <a href=<?php echo "http://localhost:8000/?p=".$value;?>><?php echo get_the_title($value);?></a>
+                        
                     <?php endforeach?>
                         <div class="clear-relation-pages"></div>
                   </div>
