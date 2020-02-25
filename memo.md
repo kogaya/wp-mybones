@@ -31,3 +31,9 @@ font-feature-settings: &amp;quot;liga&amp;quot;, &amp;quot;dlig&amp;quot;;
 ```
 
 `/css/style.css`の523行目あたりと`/scss/partials:_typography.scss`の78行目あたりにある
+
+## カスタム投稿タイプの追加
+
+カスタム投稿タイプは`/library/custom-post-type.php` で管理している
+
+サンプルのカスタム投稿タイプがあるのでコピペで追加することができる
