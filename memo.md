@@ -36,6 +36,6 @@ font-feature-settings: &amp;quot;liga&amp;quot;, &amp;quot;dlig&amp;quot;;
 
 カスタム投稿タイプは`/library/custom-post-type.php` で管理している
 
-サンプルのカスタム投稿タイプがあるのでコピペで追加することができる
+オプション全盛りのサンプルがあるのでコピペで追加することができる
 
 通常は`functions.php`に追加するようである（？）
