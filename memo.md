@@ -36,6 +36,6 @@ font-feature-settings: &amp;quot;liga&amp;quot;, &amp;quot;dlig&amp;quot;;
 
 カスタム投稿タイプは`/library/custom-post-type.php` で管理している
 
-オプション全盛りのサンプルがあるのでコピペで追加することができる
+[オプション](https://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/register_post_type)全盛りのサンプルがあるのでコピペで追加することができる
 
 通常は`functions.php`に追加するようである（？）
